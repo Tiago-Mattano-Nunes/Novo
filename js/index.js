@@ -8,8 +8,15 @@ button.addEventListener("click", (event) =>{
         window.location.href = "index.html"
     }
 
-    else if(user != "user" && senha != "senha"){
+    else if(user != "user" || senha != "senha"){
         alert("Usuario ou senha incorretos")
     }
      
+});
+
+button2.addEventListener("click", (event) =>{
+    event.preventDefault();
+ window.location.href = "cadastro.html"
+
+
 });
